@@ -16,6 +16,7 @@ import SignIn from './components/SignIn.jsx'
 import ForgetPassword from './components/ForgetPassword.jsx'
 // import ChatGPT from
 import OpenAIChatGPT from './components/OpenAIChatGPT.jsx'
+import PaymentComponent from './components/PaymentComponent.jsx'
 function App() {
   return (
     <>
@@ -30,6 +31,9 @@ function App() {
 
           {/* //http:localhost:3000/ChatGPT */}
           <Route path ='/OpenAIChatGPT' element = {<OpenAIChatGPT />}></Route>
+          
+          {/* //http:localhost:3000/ChatGPT */}
+          <Route path ='/PaymentComponent' element = {<PaymentComponent />}></Route>
 
            {/* //http:localhost:3000/ChatGPT */}
           {/* <Route path ='/ChatGPT' element = {<ChatGPT />}></Route> */}
